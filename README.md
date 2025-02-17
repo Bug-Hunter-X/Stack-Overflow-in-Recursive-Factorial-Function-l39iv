@@ -1,0 +1,3 @@
+# Python Recursive Factorial with Stack Overflow Bug
+
+This repository demonstrates a common error in recursive functions: infinite recursion due to improper handling of base cases. The `factorial_bug.py` file contains the erroneous implementation, causing a stack overflow when a negative number is inputted. The solution, provided in `factorial_solution.py`, addresses this by explicitly checking for and handling negative inputs.
